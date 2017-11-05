@@ -1,0 +1,30 @@
+.user {
+    -fx-background-image: url(images/User.png);
+    -fx-background-size:100% 100%;
+}
+
+.usercolor {
+    -fx-background-color:red;
+}
+
+.pwd {
+    -fx-background-image: url(images/Pwd.png);
+    -fx-background-size:100% 100%;
+}
+
+.my {
+    -fx-background-image: url(images/my.png);
+}
+
+.pane {
+    -fx-border-width:13px 10px;
+    -fx-border-color:#970;
+    /*-fx-border-style:dotted solid double;   JavaFX 不支持这个属性 */
+    -fx-background-color:#f3f5f7;
+
+}
+
+.viewLabel {
+    -fx-border-color:green;
+    -fx-border-width:6px;
+}
