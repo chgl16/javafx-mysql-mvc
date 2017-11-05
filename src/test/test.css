@@ -1,0 +1,24 @@
+.user {
+    -fx-background-image: url(images/User.png);
+    -fx-background-size:100% 100%;
+}
+
+.usercolor {
+    -fx-background-color:red;
+}
+
+.pwd {
+    -fx-background-image: url(images/Pwd.png);
+    -fx-background-size:100% 100%;
+}
+
+.my {
+    -fx-background-image: url(images/my.png);
+}
+
+.pane {
+    -fx-border-width:5px;
+    -fx-border-color:#adaeb0;
+    /*-fx-border-style:dotted solid double;   JavaFX 不支持这个属性 */
+
+}
