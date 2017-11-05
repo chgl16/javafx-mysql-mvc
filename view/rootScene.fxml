@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="403.0" styleClass="pane" stylesheets="@land.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RootSceneController">
+   <children>
+      <Group />
+      <Label fx:id="label2" layoutX="57.0" layoutY="114.0" prefHeight="35.0" prefWidth="290.0" style="-fx-background-color: #cf9;" stylesheets="@land.css" text="Label" textFill="#f06f00" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="57.0" layoutY="188.0" prefHeight="35.0" prefWidth="290.0" style="-fx-background-color: #cff;" stylesheets="@land.css" text="Label" textFill="#f06f00" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="label4" layoutX="57.0" layoutY="255.0" prefHeight="35.0" prefWidth="290.0" style="-fx-background-color: #ddd;" stylesheets="@land.css" text="Label" textFill="#f06f00" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="label5" layoutX="57.0" layoutY="322.0" prefHeight="35.0" prefWidth="290.0" style="-fx-background-color: #fdd;" stylesheets="@land.css" text="Label" textFill="#f06f00" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="label1" layoutX="57.0" layoutY="49.0" prefHeight="35.0" prefWidth="290.0" style="-fx-background-color: #cfc;" stylesheets="@land.css" text="Label" textFill="#f06f00" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="returnLand" layoutX="347.0" layoutY="14.0" onMouseClicked="#ReturnLand" prefHeight="50.0" prefWidth="43.0" />
+   </children>
+</Pane>
